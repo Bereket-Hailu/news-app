@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body> 
-    <div class="continer">
-        <h1 class="label">user loign</h1>
-        <form class="login_form" method="post" name="form" onsubmit="return validated ()">
+    <div class="container">
+        <h1 class="label">User Login</h1>
+        <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
             <div class="font">Email or phone</div>
-            <input type="text" name="email">
-            <div id="email_error">please fill up your Email or phone</div>
-            <div class="font font2">password</div>
+            <input autocomplete="off" type="text" name="email">
+            <div id="email_error">Please fill up your Email or phone</div>
+            <div class="font font2">Password</div>
             <input type="password" name="password">
-            <div id="pass_error">please fill up your password</div>
-            <button type="submit">login</button>
+            <div id="pass_error">Please fill up your password</div>
+            <button type="submit">Login</button>
         </form>
     </div>
-
-<script src="../js/login.js"></script>
-    
+    <script src="../js/login.js"></script>
 </body>
 </html>
