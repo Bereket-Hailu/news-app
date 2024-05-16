@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(150, 73, 73);
+    background-color: rgb(1, 0, 0);
     font-family: 'Ubuntu',sans-serif;
     width: 100%;
     min-height: 100vh;
@@ -21,13 +21,12 @@ body{
     background-color: #999;
     border-radius: 100px;
 }
-.topHeadlines.right.topNews::-webkit-scrollbar{
+.topHeadlines .right .topNews ::-webkit-scrollbar{
     width: 6px;
 }
-.topHeadlines.right.topNews::-webkit-scrollbar-thumb{
+.topHeadlines .right .topNews ::-webkit-scrollbar-thumb{
     background-color: #777;
-}
-     
+}     
 .header{
     position: fixed;
     display: flex;
@@ -69,79 +68,78 @@ nav ul li a{
 }
 .topHeadlines .left {
     padding: 10px 30px;
-    background-color:  #999;
+   
 }
-.topHeadlines.left>.title{
+.topHeadlines .left>.title{
     font: size 20px;
     padding:15px;
     text-align:center;
 }
-.topHeadlines.left.img{
+.topHeadlines .left .img{
     width:100%;
     height: 400px;
     background-color: brown;
 }
-.topHeadlines.left.text{
+.topHeadlines .left .text{
     padding: 20px  15px 10px ;
 }
-.topHeadlines.left.text.title{
+.topHeadlines .left .text .title{
    font-size: 20px; 
    letter-spacing: 1px;
    display: inline;
    cursor: pointer;
 }
-.topHeadlines.left.text.title h2{
+.topHeadlines .left .text .title h2{
     font-size: 20px;
     letter-spacing: 1px;
     display: inline;
     cursor: pointer;
 }
-.topHeadlines.left.text.title h2:hover{
+.topHeadlines .left .text .title h2:hover{
     text-decoration: underline;
 }
-.topHeadlines.left.text.description{
+.topHeadlines .left .text .description{
     font-size: 15px;
     margin-top: 10px;
     color:#aaa;
     letter-spacing: 1px;
 }
-.topHeadlines.right{
-    padding:10px 10px;
-    width: 500px;
+.topHeadlines .right{
+    padding:10px;
+    width: 1005;
     height: 500px; 
-    background-color: #999;
+    background-color: #010000;
 }
-.topHeadlines.right>.title{
+.topHeadlines .right > .title h2{
     font: size 20px;
-    padding:15px;
-    text-align:center;
+   padding: 15px;
+   text-align: center;
 }
-.topHeadlines.right.topNews{
+.topHeadlines .right .topNews{
     padding: 7px;
     height: 85%;
     border-radius: 4px;
     border: 1px solid #fff ;
     overflow-y: scroll;
 }
-.topHeadlines.right.topNews.news{
+.topHeadlines .right .topNews .news{
   display:grid ; 
    grid-template-columns: auto auto;
    align-items: center;
    margin-bottom: 20px;
   
 }
-.topHeadlines.right.topNews.news.img{
+.topHeadlines .right .topNews .news .img{
    width: 170px;
    height: 120px;
    background-color: #a04; 
 }
-.topHeadlines.right.topNews.news.text{
-    margin-left: 10px;
-   
+.topHeadlines .right .topNews .news .text{
+    margin-inline: 10px; 
 }
-.topHeadlines.right.topNews.news.text.title{
+.topHeadlines .right .topNews .news .text .title{
     cursor:pointer;
 }
-.topHeadlines.right.topNews.news.text.title:hover{
+.topHeadlines .right .topNews .news .text .title:hover{
  text-decoration:underline;   
 }
