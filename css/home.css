@@ -27,7 +27,7 @@ body{
 .topHeadlines .right .topNews::-webkit-scrollbar-thumb{
     background-color: #777;
 }     
-.header{
+<!--.header{
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -60,6 +60,7 @@ nav ul li a{
     color:aliceblue;
     letter-spacing: 1px;
 }
+-->
 .topHeadlines{
     padding: 200px 50px 50px;
     width: 100%;
@@ -143,3 +144,39 @@ nav ul li a{
 .topHeadlines .right .topNews .news .text .title:hover{
  text-decoration:underline;   
 }
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
