@@ -21,10 +21,10 @@ body{
     background-color: #999;
     border-radius: 100px;
 }
-.topHeadlines .right .topNews ::-webkit-scrollbar{
+.topHeadlines .right .topNews::-webkit-scrollbar{
     width: 6px;
 }
-.topHeadlines .right .topNews ::-webkit-scrollbar-thumb{
+.topHeadlines .right .topNews::-webkit-scrollbar-thumb{
     background-color: #777;
 }     
 .header{
@@ -126,7 +126,7 @@ nav ul li a{
   display:grid ; 
    grid-template-columns: auto auto;
    align-items: center;
-   margin-bottom: 20px;
+   margin-bottom:20px;
   
 }
 .topHeadlines .right .topNews .news .img{
