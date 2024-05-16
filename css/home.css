@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: rgb(150, 73, 73);
     font-family: 'Ubuntu',sans-serif;
     width: 100%;
     min-height: 100vh;
     color: aliceblue;
+}
+::-webkit-scrollbar{
+    width: 8px;
 }
 ::-webkit-scrollbar-track{
     background-color: transparent;
@@ -24,43 +27,42 @@ body{
 .topHeadlines.right.topNews::-webkit-scrollbar-thumb{
     background-color: #777;
 }
+     
 .header{
     position: fixed;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width:100%;
-    padding:220px 50px
-
+    padding: 10px 10px;
 }
 .logo {
     font-size: 45px;
     font-weight: 700;
     cursor:pointer; 
- }
+}
 nav  ul {
     display: flex;
 }
 nav ul  li{
     list-style: none;
     margin:0 15px; 
-padding: 0 10px;
-border-left: 1px solid #fff0;
-border: right 1px solid #fff0 ;
-transition:0.3s;
-
+ padding: 0 10px;
+ border-left: 1px solid #fff0;
+ border: right 1px solid #fff0 ;
+ transition:0.3s;
 }
 nav ul li:hover{
-    border-left:1 px solid white;
+border-left: 1px solid white;
     border-right: 1px solid white;
 }
 nav ul li a{
     text-decoration: none;
     color:aliceblue;
     letter-spacing: 1px;
-
 }
 .topHeadlines{
-    padding: 100px 50px 50px;
+    padding: 200px 50px 50px;
     width: 100%;
     display:grid;
     grid-template-columns:1.5fr 1fr;
@@ -87,7 +89,6 @@ nav ul li a{
    letter-spacing: 1px;
    display: inline;
    cursor: pointer;
-   
 }
 .topHeadlines.left.text.title h2{
     font-size: 20px;
